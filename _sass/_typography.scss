@@ -51,6 +51,7 @@ h1 {
 	font-size: 6.5rem;
 	line-height: 80px;
 	margin: 0 -10px 0 0;
+        color: #611a1a
 
 	@media (min-width: $mobile-break) {
 		line-height: 100px;
@@ -60,10 +61,12 @@ h1 {
 
 h2 {
 	font-size: 3.6rem;
+	color: #611a1a
 }
 
 h3 {
 	font-size: 2.7rem;
+	color: #611a1a
 }
 
 h4 {
@@ -79,11 +82,11 @@ h6 {
 }
 
 a {
-	color: #4489b1;
+	color: #611a1a;
 	transition: color 0.2s ease;
 	text-decoration: none;
 
 	&:hover {
-		color: #73a9c9;
+		color: #bd3333;
 	}
 }
