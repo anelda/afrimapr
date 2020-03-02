@@ -1,15 +1,3 @@
-- title: Pages
-  links:
-    - name: Home
-      link: /
-    - name: Team
-      link: /team/
-    - name: Resources
-      link: /resources/
-    - name: Blog
-      link: /blog/
-    - name: Join
-      link: /join/
 - title: Social
   links:
     - name: Twitter
