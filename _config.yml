@@ -9,7 +9,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /assets/img/logo
+logo: /assets/img/logo.png
 description: R building blocks for mapping data in Africa
 author:
   name:
@@ -91,6 +91,7 @@ call_to_actions:
 social_icons:
   - Twitter
   - YouTube
+  - Github
 
 _comments:
   large_header: Toggles the size of the top banner.
