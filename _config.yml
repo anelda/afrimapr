@@ -2,8 +2,8 @@
 # Site
 
 title: afrimapr
-url: "https://anelda.github.io/afrimapr"
-baseurl: "https://github.anelda/afrimapr" 
+url: "https://github.com/anelda/afrimapr"
+baseurl: "https://anelda.github.io/afrimapr" 
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
