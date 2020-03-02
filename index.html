@@ -4,15 +4,15 @@ call_to_action: Contact
 background_image_path:
 large_header: true
 testimonials:
-  - message: We use Justice Law in all our endeavours. They offer an unparalleled service when it comes to running a business.
-    image: "https://placekitten.com/g/60/60?a=.png"
-    name: Joice Carmold
-  - message: Justice Law are the best of the best. Being local, they care about people and have strong ties to the community.
-    image: "https://www.fillmurray.com/60/60?a=.png"
-    name: Peter Rottenburg
-  - message: Justice Law were everything we could have hoped for when buying our first home. Highly recommended to all.
-    image: "https://placebear.com/60/60?a=.png"
-    name: D. and G. Gibbleston
+  - message: The public health professionals in developing countries, however, who are often in the best position to exploit information and mapping technologies have in many cases been the last to receive the technology. This has mainly been due to lack of funding, lack of access to simple technology and lack of awareness of the opportunities that these technologies provide.
+    link: http://healthcybermap.org/HGeo/healthmap.htm
+    name: WHO HealthMap Project
+  - message: The growing availability of healthcare data raises the prospect of better evidence-informed decision-making.
+    link: https://doi.org/10.1016/j.ijinfomgt.2019.04.012
+    name: Chung et al (2020)
+  - message: Spatial epidemiology and earth observation data could also inform operational decision making at a more local level, for example to help officials target efforts at a local/regional level. To be usable for local decision-making, data needs to be presented in a way that is relevant to and understandable by local decision makers.
+    link: https://doi.org/10.12688/wellcomeopenres.15495.2
+    name: Tomlinson et al (2019)
 _options:
   image:
     width: 60
@@ -20,16 +20,19 @@ _options:
 ---
 
 <div class="editable">
-	<p>This is the <strong>Justice</strong> template from <a href="https://cloudcannon.com/">CloudCannon</a>. Justice is strong foundation for the web presence of a law firm or business. It's filled with fictitious example content to get you started.</p>
+	
+	<p>The afrimapr project will create software building blocks in R and learning resources to facilitate the use of spatial data in health and other applications in Africa. The project will promote these resources in Africa and beyond to initiate a community of users and developers to maintain and improve them. </p>
 
-	<p>Justice Law is professional representation. Practicing for over 50 years, our team have the knowledge and skills to get you results.</p>
+	<p>The R building blocks will make it easier to perform spatial data management tasks that should be straightforward but seldom are, including: summarising data by administrative regions of different levels; joining and displaying data referenced by administrative region names; access to environmental, socio-economic and health data, such as WorldPop, the Malaria Atlas Project and OpenStreetMap; and displaying data in static maps and interactive web applications. Components will be designed for ease of use to target new users of R. Focusing on Africa is a choice taken to promote usability. </p>
 </div>
 
+	<h2> Why is this important?</h2>
 <div class="testimonials">
+
 	{% for testimonial in page.testimonials %}
 		<blockquote class="testimonial">
 			<p class="testimonial-message">{{ testimonial.message }}</p>
-			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
+			<p class="testimonial-author"> <a href="{{ testimonial.link }}">{{ testimonial.name }}</a></p>
 		</blockquote>
 	{% endfor %}
 </div>

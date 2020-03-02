@@ -1,11 +1,10 @@
 <div class="staff-details">
 	<div class="staff-image">
-		<img src="{% include relative-src.html src=include.member.image %}" alt="Staff photo for {{ include.member.name }}" width="120" height="120">
+		<img src="{{ include.member.photo }}" alt="{{ include.member.name }}" width="120" height="120">
 	</div>
 	<ul class="staff-info">
 		<li>{{ include.member.name }}</li>
-		<li><small>{{ include.member.credentials }}</small></li>
-		<li><a href="tel:{{ site.data.company.contact_phone_number }}">{{ site.data.company.contact_phone_number }}</a>  ext {{ include.member.phone_extension }}</p></li>
+		<li><a href="https://twitter.com/{{ site.data.member.twitter }}">@{{ site.data.member.twitter }}</a></p></li>
 	</ul>
 </div>
 
