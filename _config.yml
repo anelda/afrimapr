@@ -38,8 +38,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /assets/img/logo.png
-      image: /assets/img/logo.png
+      background_image_path: //assets/img/logo.png
+      image: //assets/img/logo.png
   -
     scope:
       path: ""
