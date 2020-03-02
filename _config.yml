@@ -4,6 +4,7 @@
 title: afrimapr
 url: "https://github.com/anelda/afrimapr"
 baseurl: "https://anelda.github.io/afrimapr" 
+image_url: "https://raw.githubusercontent.com/anelda/afrimapr/master"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
